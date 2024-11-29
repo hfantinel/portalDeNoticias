@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/jornalVelho.jpg);
+}
+
+h1 {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 3rem;
+}
+
+.container{
+    display: flex;
+}
+
+.forms{
+    margin-top: 8%;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-size: 30px;
+    padding: 40px;
+    width: 300px;
+}
+
+.botao{
+    background-color: #853500;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+  }
+  
+  .botao:hover,
+  .botao:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+  }
+
+  .botao:hover {
+    transform: translateY(-3px);
+  }
+
+  .voltar{
+    background-color: #853500;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+  }
+  
+  .voltar:hover,
+  .voltar:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+  }
+
+  .voltar:hover {
+    transform: translateY(-3px);
+  }
+
+  .campText{
+  padding: 0.5em 0.75em;
+  border-radius: 0.2em;
+  border: 1px solid var(--c-border, currentColor);
+  font-family: "Special Elite", system-ui;
+  margin-top: 10px;
+  color: var(--c-text);
+  font-size: 0.8rem;
+}
+
+p{
+    margin-top: 10px;
+}

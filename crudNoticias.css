@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body {
+    background-image: url(imagens/jornalVelho.jpg);
+}
+
+.box {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botoesSaida {
+  flex-direction: row;
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.titulo {
+  border-radius: 50px;
+  font-family: "Lobster", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  height: 120px;
+}
+
+.filtro {
+  font-size: 20px;
+  font-family: "Special Elite", system-ui;
+}
+
+.campTextPesq{
+  padding: 0.5em 0.75em;
+  border-radius: 0.2em;
+  border: 1px solid var(--c-border, currentColor);
+  color: var(--c-text);
+  font-size: 1rem;
+}
+
+table {
+  background-color: white;
+  background-size: cover;
+  border: 2px solid black;
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+th {
+  padding: 10px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+}
+
+td {
+  background-image: url(imagens/papelvelho2.avif);
+  height: 50px;
+  padding: 10px;
+  text-align: left;
+  width: 150px;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+}
+
+
+.botao{
+    background-color: #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+  }
+  
+  .botao:hover,
+  .botao:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+  }
+
+  .botao:hover {
+    transform: translateY(-1px);
+  }
+
+  .botaoPesq{
+    background-color: #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin-left: 20px;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+  }
+  
+  .botaoPesq:hover,
+  .botaoPesq:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+  }
+
+  .botaoPesq:hover {
+    transform: translateY(-1px);
+  }
+
+.registrarNot {
+  margin-top: 15px;
+}

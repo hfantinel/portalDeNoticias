@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-image: url(imagens/jornalVelho.jpg);
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 1.5rem;
+}
+
+.botao{
+    background-color: #853500;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+  }
+  
+  .botao:hover,
+  .botao:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+  }
+
+  .botao:hover {
+    transform: translateY(-3px);
+  }
+
+  .noticiasContainer {
+    border: 2px solid black;
+    background-color: #ffffff;
+  }
+
+  .noticiaLista {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(imagens/papelvelho2.avif);
+    margin: 5px;
+  }
+
+  li {
+    font-family: "Special Elite", system-ui;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    font-size: 20px;
+  }
+
+  h3{
+    text-decoration: underline;
+
+  }
+
+  .botao2{
+    background-color: #853500;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+  }
+  
+  .botao2:hover,
+  .botao2:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+  }
+
+  .botao2:hover {
+    transform: translateY(-3px);
+  }

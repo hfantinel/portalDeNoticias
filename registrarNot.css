@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-image: url(imagens/jornalVelho.jpg);
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.cadastro {
+    text-align: center;
+    justify-content: center;
+    background-image: url(imagens/papelvelho2.avif);
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    height: 220px;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 30px;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.botao {
+    background-color: #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Special Elite", system-ui;
+    font-size: 25px;
+    font-weight: 400;
+    height: 40px;
+    list-style: none;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: #ffe989;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 40px black;
+}
+
+.botao:hover {
+    transform: translateY(-1px);
+}
+
+.campText {
+    padding: 0.5em 0.75em;
+    border-radius: 0.2em;
+    border: 1px solid var(--c-border, currentColor);
+    color: var(--c-text);
+    font-size: 1rem;
+    font-family: "Special Elite", system-ui;
+}
